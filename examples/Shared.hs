@@ -5,10 +5,6 @@ module Shared (
 
 import           Language.Haskell.Exts
 import           Language.Haskell.Exts.Extension
-import           Language.Haskell.Exts.GenericPretty.Instances
-import           System.Environment
-import           System.IO
-import           Text.PrettyPrint.GenericPretty
 
 myParseMode :: ParseMode
 myParseMode = ParseMode {

@@ -1,7 +1,6 @@
 module Main where
 
 import           Language.Haskell.Exts
-import           Language.Haskell.Exts.Extension
 import           Language.Haskell.Exts.GenericPretty.Instances
 import           Shared
 import           System.Environment
