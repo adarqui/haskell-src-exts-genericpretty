@@ -33,13 +33,13 @@ library
 
 flag                 examples
   description:       build examples
-  default:           false
+  default:           False
 
 executable           pretty-ast
   if flag(examples)
-    buildable: true
+    buildable: True
   else
-    buildable: false
+    buildable: False
   main-is:           pretty-ast.hs
   build-depends:     base >=4.6 && <5, haskell-src-exts >= 1.16, GenericPretty >= 1.2, haskell-src-exts-genericpretty
   hs-source-dirs:    examples
@@ -48,9 +48,9 @@ executable           pretty-ast
 
 executable           ugly-ast
   if flag(examples)
-    buildable: true
+    buildable: True
   else
-    buildable: false
+    buildable: False
   main-is:           ugly-ast.hs
   build-depends:     base >=4.6 && <5, haskell-src-exts >= 1.16, GenericPretty >= 1.2, haskell-src-exts-genericpretty
   hs-source-dirs:    examples
