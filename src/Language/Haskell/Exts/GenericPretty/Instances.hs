@@ -1,5 +1,18 @@
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 
+-----------------------------------------------------------------------------
+-- |
+-- Module      :  Language.Haskell.Exts.GenericPretty.Instances
+-- License     :  MIT
+-- Maintainer  :  adarqui
+-- Stability   :  stable
+-- Portability :  portable
+--
+-- Out instances for Language.Haskell.Exts.Syntax so that we can use the
+-- GenericPretty library to pretty-print the Module AST.
+--
+-----------------------------------------------------------------------------
+
 module Language.Haskell.Exts.GenericPretty.Instances (
 ) where
 
